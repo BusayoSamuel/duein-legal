@@ -1,33 +1,23 @@
-# duein-legal
+# DueIn — legal & support pages
 
-Public privacy policy for [DueIn](https://github.com/BusayoSamuel/duein) (Google Play & App Store).
+Public GitHub Pages for store listings and in-app links.
 
-## Privacy policy URL (after GitHub Pages is enabled)
+## URLs
 
-**https://busayosamuel.github.io/duein-legal/privacy.html**
+| Page | URL |
+|------|-----|
+| Privacy policy | https://busayosamuel.github.io/duein-legal/privacy.html |
+| Support | https://busayosamuel.github.io/duein-legal/support.html |
 
-Short link (root redirects to policy):
+## GitHub Pages setup
 
-**https://busayosamuel.github.io/duein-legal/**
+1. Push this repo to GitHub (`busayosamuel/duein-legal`).
+2. **Settings → Pages** → Source: **Deploy from a branch** → branch `main`, folder `/ (root)`.
+3. After deploy, both URLs above should load.
 
-## One-time setup
+## Store listings
 
-1. Create a **public** repo on GitHub named `duein-legal` (empty, no README).
-2. Push this folder:
+- **Google Play** — Privacy policy URL and Support URL (Developer contact → Website or Support email + this page).
+- **App Store Connect** — Privacy Policy URL and Support URL under App Information.
 
-   ```bash
-   cd /Users/user/Documents/duein-legal
-   git init
-   git add privacy.html index.html README.md
-   git commit -m "Add DueIn privacy policy"
-   git branch -M main
-   git remote add origin https://github.com/BusayoSamuel/duein-legal.git
-   git push -u origin main
-   ```
-
-3. **Settings → Pages** → Source: **Deploy from branch** → **main** → **/ (root)** → Save.
-4. Wait 1–2 minutes, open the URL above in a browser.
-
-## Updating the policy
-
-Edit `privacy.html`, commit, push. Pages redeploys automatically.
+Contact: busayosalisu@gmail.com
